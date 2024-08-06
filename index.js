@@ -13,7 +13,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
   cors: {
-    origin: "https://real-time-chess.netlify.app",
+    origin: "https://lan-chess.netlify.app",
     methods: ["GET", "POST"]
   }
 })
